@@ -257,7 +257,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250570064}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 0b22e37c219194c84bbaa8e78ef2d0de, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -5873,8 +5873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 1452013110}
+  m_Bindings: []
   m_VisualEffect: {fileID: 1452013106}
 --- !u!114 &1452013110
 MonoBehaviour:

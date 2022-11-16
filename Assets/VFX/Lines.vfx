@@ -2823,7 +2823,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615289}
   - {fileID: 8926484042661615300}
   dataType: 0
-  capacity: 512
+  capacity: 128
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -2916,7 +2916,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 60
+      m_SerializableObject: 88.5
     m_Space: 2147483647
   m_Property:
     name: Rate
@@ -3574,7 +3574,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.25
+      m_SerializableObject: 0.5
     m_Space: 2147483647
   m_Property:
     name: Lifetime
@@ -3630,8 +3630,8 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615353}
   m_OutputSlots: []
-  m_Disabled: 0
-  UseParticleSize: 0
+  m_Disabled: 1
+  UseParticleSize: 1
 --- !u!114 &8926484042661615353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3657,7 +3657,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.81
+      m_SerializableObject: 0.2
     m_Space: 2147483647
   m_Property:
     name: dragCoefficient
@@ -3914,7 +3914,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.1
+      m_SerializableObject: 16.68
     m_Space: 2147483647
   m_Property:
     name: 
@@ -9441,7 +9441,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2358, y: 1895}
+  m_UIPosition: {x: 2414, y: 1904}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -10014,7 +10014,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661615597}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661615596}
   m_MasterData:
@@ -10052,7 +10052,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615599}
   - {fileID: 8926484042661615600}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661615596}
   m_MasterData:
